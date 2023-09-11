@@ -1,9 +1,11 @@
+package hashMaps;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class NearDuplicate {
     public static void main(String[] args) {
-        System.out.println(containsNearbyDuplicate(new int[] {1,2,3,1}, 2));
+        System.out.println(containsNearbyDuplicate(new int[]{1, 2, 3, 1}, 2));
     }
 
     public static boolean containsNearbyDuplicate(int[] nums, int k) {
